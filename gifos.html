@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./styles/StyleGifos.css">
+	<link rel="icon" href="./assets/gif_logo.png" type="image/png" />
+	<title>Mis Guifos</title>
+</head>
+
+<body class="light-theme">
+	<div id="cont">
+		<header>
+			<p>¡Bienvenidos/as a Guifos.com! ——————Donde los gifs están.////// Número de visitas: 12.765.803
+			</p>
+		</header>
+		<main>
+			<div class="logo">
+				<a href="index.html"><img src="./assets/arrow.svg" alt="arrow" id="arrow"></a>
+				<a href="index.html"><img class="light-logo" src="./assets/gif_logo.png" alt="logo_of_gifOS"></a>
+				<a href="index.html"><img class="dark-logo" src="./assets/gif_logo_dark.png" alt="logo_of_gifOS_darkMode"></a>
+				<div class="buttons">
+					<button class="creategif" id="createbutton">Crear Guifos</button>
+					<div class="theme" id="theme">
+						<button class="choose">
+							Elegir tema
+						</button>
+						<button>
+							<img src="./assets/dropdown.svg" alt="dropdown_arrow">
+						</button>
+						<ul class="themelist" id="themelist">
+							<li class="light" id="light" onclick="">
+								<span>S</span>ailor Day</li>
+							<li class="dark" id="dark">
+								<span>S</span>ailor Night</li>
+						</ul>
+					</div>
+					<p class="mygifs"><span class="underline">M</span>is Guifos </p>
+				</div>
+			</div>
+			<div class="gifos-process">
+				<div class="creategifos" id="create">
+					<div class="gifosheader">
+						Crear Guifos
+					</div>
+					<div class="gifosbody">
+						<img src="./assets/window.png" alt="web-window" id="window-img">
+						<div class="text">
+							<p class="title">Aquí podrás crear tus propios guifos</p>
+							<br>
+							<br>
+							<p>Crear tu <span>guifo</span> es muy fácil, graba cualquier
+								imagen con tu cámara y obtén guifos <br> personalizados.
+								Los pasos para crear tu guifo son:</p>
+							<br>
+							<ol>
+								<li>Dar permisos de acceso a la cámara (sólo por el
+									tiempo de uso)</li>
+								<li>Capturar tu momento guifo</li>
+								<li>Revisar el momento</li>
+								<li>Listo para subir y compartir</li>
+							</ol>
+							<br>
+							<p>¿Quiere comenzar a crear tu <span>guifo</span> ahora?</p>
+						</div>
+						<div class="btns">
+							<button class="cancel" id="cancel">Cancelar</button>
+							<button class="active-capture" id="active">Comenzar</button>
+						</div>
+					</div>
+				</div>
+				<div class="creategifos" id="check">
+					<div class="gifosheader">
+						<p>Un Chequeo Antes de Empezar</p>
+						<img src="./assets/close.svg" alt="close_button" id="close-btn">
+					</div>
+					<div class="gifosbody">
+						<video id="video" class="capturegif"></video>
+						<div class="buttons">
+							<button class="camera"> <img src="./assets/camera.svg" alt="camera"></button>
+							<button class="start" id="start">Comenzar</button>
+						</div>
+					</div>
+				</div>
+				<div class="creategifos" id="capture">
+					<div class="gifosheader">
+						<p>Capturando tu Guifo</p>
+						<img src="./assets/close.svg" alt="close_button">
+					</div>
+					<div class="gifosbody">
+						<video id="videocapture" class="capturegif" autoplay playsinline></video>
+						<div class="buttons-red">
+							<button class="record"><img src="./assets/recording.svg" alt="recording"></button>
+							<button class="ready" id="ready">Listo</button>
+						</div>
+					</div>
+				</div>
+				<div class="creategifos" id="preview">
+					<div class="gifosheader">
+						<p>Vista Previa</p>
+					</div>
+					<div class="gifosbody">
+						<img class="capturegif" id="gif-preview" alt="gif_preview">
+						<div class="buttons-pink">
+							<button id="repeat-btn">Repetir captura</button>
+							<button id="upload-btn">Subir Guifo</button>
+						</div>
+					</div>
+				</div>
+				<div class="creategifos" id="upload">
+					<div class="gifosheader">
+						<p>Subiendo Guifo</p>
+						<img src="./assets/close.svg" alt="close_button">
+					</div>
+					<div class="gifosbody">
+						<div class="capturegif" id="upld">
+							<img src="./assets/globe_img.png" alt="globe">
+							<p class="bold">Estamos subiendo tu guifo...</p>
+							<p class="time">Tiempo restante: <span>38 años</span> algunos minutos</p>
+						</div>
+						<button class="cancel" id="cancel-btn">Cancelar</button>
+					</div>
+				</div>
+				<div class="creategifos" id="success">
+					<div class="gifosheader">
+						<p>Guifo Subido Con Éxito</p>
+						<img src="./assets/close.svg" alt="close_button">
+					</div>
+					<div class="gifosbody">
+						<div class="wrapper" id="final-wrapper">
+							<p>Guifo creado con éxito</p>
+							<button id="copy">Copiar Enlace Guifo</button>
+							<button id="download">Descargar Guifo</button>
+							<button id="done">Listo</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="suggestions">
+				<p>Mis gifos</p>
+			</div>
+			<div class="gif-container" id="gifos-uploaded"></div>
+		</main>
+
+	</div>
+		
+
+	<script src="./scripts/gifos.js"></script>
+	<script src="https://www.WebRTC-Experiment.com/RecordRTC.js"></script>
+</body>
+
+</html>
+

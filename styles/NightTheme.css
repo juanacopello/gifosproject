@@ -1,0 +1,254 @@
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap");
+#cont {
+  background-color: #110038;
+}
+
+#cont header {
+  background-image: -webkit-gradient(linear, right top, left top, from(#EE3EFE), to(#2E32FB));
+  background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
+  -webkit-box-shadow: 0 1px 0 0 #110038;
+          box-shadow: 0 1px 0 0 #110038;
+  color: #FFFFFF;
+}
+
+#cont main .logo .light-logo {
+  display: none;
+}
+
+#cont main .logo .dark-logo {
+  display: block;
+}
+
+#cont main .logo .buttons .creategif {
+  background-color: #EE3EFE;
+  border: 1px solid #110038;
+  -webkit-box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+  color: #FFFFFF;
+}
+
+#cont main .logo .buttons .creategif:hover {
+  background: #EE3EFE;
+  border: 1px dotted #110038;
+}
+
+#cont main .logo .buttons .theme {
+  background-color: #EE3EFE;
+}
+
+#cont main .logo .buttons .theme .choose {
+  border: 1px solid #110038;
+  -webkit-box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+  background-color: #EE3EFE;
+  color: #FFFFFF;
+}
+
+#cont main .logo .buttons .theme button {
+  background: #EE3EFE;
+  border: 1px solid #110038;
+  -webkit-box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+}
+
+#cont main .logo .buttons .theme .themelist li {
+  border: 1px solid #808080;
+  -webkit-box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
+  background: #CCCCCC;
+}
+
+#cont main .logo .buttons .theme .themelist li:hover {
+  background: #2E32FB;
+  border: 1px solid rgba(51, 53, 143, 0.2);
+  -webkit-box-shadow: inset -1px -1px 0 0 #E6DCE4, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #E6DCE4, inset 1px 1px 0 0 #FFFFFF;
+  color: #FFFFFF;
+}
+
+#cont main .logo .buttons .theme .themelist .light span {
+  text-decoration: none;
+}
+
+#cont main .logo .buttons .theme .themelist .dark span {
+  text-decoration: underline;
+}
+
+#cont main .logo .buttons .mygifs {
+  color: #FFFFFF;
+}
+
+#cont main .logo .buttons .mygifs .underline {
+  text-decoration: none;
+}
+
+#cont main .logo .buttons .mygifs:hover {
+  border: 1px dotted #FFFFFF;
+}
+
+#cont main .logo .buttons .mygifs:hover .underline {
+  text-decoration: underline;
+}
+
+#cont main .logo .buttons .mygifs:active {
+  color: #B4B4B4;
+  border: none;
+}
+
+#cont main .logo .buttons .mygifs:active .underline {
+  text-decoration: underline;
+}
+
+#cont main .searchbar {
+  background: #B4B4B4;
+  -webkit-box-shadow: inset -2px -2px 0 0 #8F8F8F, inset 2px 2px 0 0 #FFFFFF;
+          box-shadow: inset -2px -2px 0 0 #8F8F8F, inset 2px 2px 0 0 #FFFFFF;
+}
+
+#cont main .searchbar .searchbarheader {
+  background-image: -webkit-gradient(linear, right top, left top, from(#EE3EFE), to(#2E32FB));
+  background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
+}
+
+#cont main .searchbar .inputsearch input {
+  color: #B4B4B4;
+}
+
+#cont main .searchbar .inputsearch .search {
+  background: #B4B4B4;
+  border: 1px solid #808080;
+  -webkit-box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
+  margin-left: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #8F8F8F;
+}
+
+#cont main .searchbar .searchresults {
+  background-color: #B4B4B4;
+}
+
+#cont main .searchbar .searchresults li {
+  border: 1px solid #808080;
+  background-color: #CCCCCC;
+}
+
+#cont main .searchbar .inputsearch input:focus {
+  color: #110038;
+}
+
+#cont main .searchbar .inputsearch input:focus ~ #search {
+  background-color: #EE3EFE;
+  border: 1px solid #110038;
+  color: #FFFFFF;
+}
+
+#cont main .searchbar .inputsearch input {
+  color: #110038;
+}
+
+#cont main .searchbar .inputsearch #search:active {
+  background-color: #CE36DB;
+  color: #FFFFFF;
+  -webkit-box-shadow: inset -2px -2px 0 0 #8F8F8F, inset 2px 2px 0 0 #FFFFFF;
+          box-shadow: inset -2px -2px 0 0 #8F8F8F, inset 2px 2px 0 0 #FFFFFF;
+}
+
+#cont main #tags-cont .tags {
+  background: #2E32FB;
+}
+
+#cont main .suggestions {
+  padding: 7px;
+  background: #FFFAFE;
+  border: 1px solid #E6BBE2;
+  -webkit-box-shadow: inset -2px -2px 0 0 #E6DCE4, inset 2px 2px 0 0 #80687D;
+          box-shadow: inset -2px -2px 0 0 #E6DCE4, inset 2px 2px 0 0 #80687D;
+  margin-bottom: 19px;
+  color: #110038;
+}
+
+#cont main .gifgrid .gif .gif-header {
+  background-image: -webkit-gradient(linear, right top, left top, from(#EE3EFE), to(#2E32FB));
+  background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
+}
+
+#cont main .gifgrid .gif .see-more {
+  background: #2E32FB;
+  border: 1px solid #4C2F99;
+  -webkit-box-shadow: inset -2px -2px 0 0 #2124B3, inset 2px 2px 0 0 #FFFFFF;
+          box-shadow: inset -2px -2px 0 0 #2124B3, inset 2px 2px 0 0 #FFFFFF;
+}
+
+#cont main .gif-container .gif-hashtags .gif-box h4 {
+  background-image: -webkit-gradient(linear, right top, left top, from(#EE3EFE), to(#2E32FB));
+  background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
+}
+
+#cont main .gifos-process .creategifos .gifosheader {
+  background-image: -webkit-gradient(linear, right top, left top, from(#EE3EFE), to(#2E32FB));
+  background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
+}
+
+#cont main .gifos-process .creategifos .gifosbody {
+  background-color: #B4B4B4;
+}
+
+#cont main .gifos-process .creategifos .gifosbody .btns .active-capture {
+  background-color: #EE3EFE;
+  color: #FFFFFF;
+}
+
+#cont main .gifos-process .creategifos .buttons .camera {
+  background-color: #EE3EFE;
+  color: #FFFFFF;
+}
+
+#cont main .gifos-process .creategifos .buttons .start {
+  background-color: #EE3EFE;
+  color: #FFFFFF;
+}
+
+#cont main .gifos-process .creategifos .buttons-pink #upload-btn {
+  background-color: #EE3EFE;
+  color: #FFFFFF;
+}
+
+#cont main .gifos-process #check {
+  color: #B4B4B4;
+}
+
+#cont main .gifos-process #capture {
+  color: #B4B4B4;
+}
+
+#cont main .gifos-process #preview {
+  color: #B4B4B4;
+}
+
+#cont main .gifos-process #upload {
+  color: #B4B4B4;
+}
+
+#cont main .gifos-process #upload .cancel {
+  background: #EE3EFE;
+  color: #FFFFFF;
+}
+
+#cont main .gifos-process #success .wrapper #copy {
+  background-color: #EE3EFE;
+  color: #FFFFFF;
+}
+
+#cont main .gifos-process #success .wrapper #download {
+  background-color: #EE3EFE;
+  color: #FFFFFF;
+}
+
+#cont main .gifos-process #success .wrapper #done {
+  background-color: #EE3EFE;
+  color: #FFFFFF;
+}
+/*# sourceMappingURL=NightTheme.css.map */

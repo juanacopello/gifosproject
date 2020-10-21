@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./styles/StyleGifos.css">
+	<link rel="icon" href="./assets/gif_logo.png" type="image/png">
+	<title>gifOS: Home</title>
+</head>
+
+<body>
+	<div id="cont" class="light-theme">
+		<header>
+			<p>¡Bienvenidos/as a Guifos.com! ——————Donde los gifs están.////// Número de visitas: 12.765.803</p>
+		</header>
+		<main>
+			<div class="logo">
+				<img class="light-logo" src="./assets/gif_logo.png" alt="logo_of_gifOS_lightMode">
+				<img class="dark-logo" src="./assets/gif_logo_dark.png" alt="logo_of_gifOS_darkMode">
+				<div class="buttons">
+					<a href="gifos.html"><button class="creategif">Crear Guifos</button></a>
+					<div class="theme" id="theme">
+						<button class="choose">
+							Elegir tema
+						</button>
+						<button>
+							<img src="./assets/dropdown.svg" alt="dropdown_arrow">
+						</button>
+						<ul class="themelist" id="themelist">
+							<li class="light" id="light"><span>S</span>ailor Day</li>
+							<li class="dark" id="dark"><span>S</span>ailor Night</li>
+						</ul>
+					</div>
+					<a href="gifos.html">
+						<p class="mygifs"><span class="underline">M</span>is Guifos</p>
+					</a>
+				</div>
+			</div>
+			<div class="searchbar">
+				<div class="searchbarheader">
+					<p>Buscar</p>
+				</div>
+				<div class="inputsearch" id="search-form">
+					<input type="text" name="texto" id="input" placeholder="Busca gifs, hashtags, temas, busca lo que quieras…">
+					<button class="search" id='search'>
+						<img src="./assets/combined_shape.svg" alt="search_icon">
+						Buscar
+					</button>
+				</div>
+				<ul class="searchresults" id="searchresults"></ul>
+			</div>
+			<div id="tags-cont"></div>
+			<div class="suggestions">
+				<p>Hoy te sugerimos:</p>
+			</div>
+			<div class="gifgrid" id="gifgrid">
+			</div>
+			<div class="suggestions" id="trending">
+				<p>Tendencias:</p>
+			</div>
+			<div class="gif-container" id="gif-container">
+			</div>
+		</main>
+
+	</div>
+		
+	<script src="./scripts/index.js"></script>
+</body>
+
+</html>

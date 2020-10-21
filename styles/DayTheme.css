@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap");
+#cont header {
+  background-image: -webkit-gradient(linear, right top, left top, from(#F7C9F3), to(#4180F6));
+  background-image: linear-gradient(270deg, #F7C9F3 0%, #4180F6 100%);
+}
+
+#cont header p {
+  color: #FFFFFF;
+}
+
+#cont main .logo .light-logo {
+  display: block;
+}
+
+#cont main .logo .dark-logo {
+  display: none;
+}
+
+#cont main .logo .buttons .creategif {
+  background: #F7C9F3;
+  border: 1px solid #110038;
+  -webkit-box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+  font-size: 16px;
+  color: #110038;
+}
+
+#cont main .logo .buttons .creategif:hover {
+  background: #E6BBE2;
+  border: 1px dotted #110038;
+}
+
+#cont main .logo .buttons .creategif:active {
+  background: #E6BBE2;
+}
+
+#cont main .logo .buttons .theme .choose {
+  background: #F7C9F3;
+  border: 1px solid #110038;
+  -webkit-box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+  color: #110038;
+}
+
+#cont main .logo .buttons .theme button {
+  background: #F7C9F3;
+  border: 1px solid #110038;
+  -webkit-box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+}
+
+#cont main .logo .buttons .theme .themelist {
+  background-color: #E6E6E6;
+}
+
+#cont main .logo .buttons .theme .themelist .light span {
+  text-decoration: underline;
+}
+
+#cont main .logo .buttons .theme .themelist .dark span {
+  text-decoration: none;
+}
+
+#cont main .logo .buttons .theme .themelist li {
+  background: #FFF4FD;
+  border: 1px solid #CCA6C9;
+  -webkit-box-shadow: inset -1px -1px 0 0 #E6DCE4, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #E6DCE4, inset 1px 1px 0 0 #FFFFFF;
+}
+
+#cont main .logo .buttons .theme .themelist li:hover {
+  background: #F0F0F0;
+  border: 1px solid #808080;
+  -webkit-box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
+}
+
+#cont main .logo .buttons .mygifs {
+  color: #110038;
+}
+
+#cont main .logo .buttons .mygifs .underline {
+  text-decoration: underline;
+}
+
+#cont main .logo .buttons .mygifs:hover {
+  border: 1px dotted #110038;
+}
+
+#cont main .logo .buttons .mygifs:active {
+  color: #B4B4B4;
+  border: none;
+}
+
+#cont main .searchbar {
+  background: #E6E6E6;
+  -webkit-box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+}
+
+#cont main .searchbar .searchbarheader {
+  background-image: -webkit-gradient(linear, right top, left top, from(#F7C9F3), to(#4180F6));
+  background-image: linear-gradient(270deg, #F7C9F3 0%, #4180F6 100%);
+}
+
+#cont main .searchbar .searchbarheader p {
+  color: #FFFFFF;
+  font-family: "Chakra Petch", sans-serif;
+}
+
+#cont main .searchbar .inputsearch input {
+  color: #B4B4B4;
+}
+
+#cont main .searchbar .inputsearch .search {
+  background: #E6E6E6;
+  border: 1px solid #808080;
+  -webkit-box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+  color: #B4B4B4;
+}
+
+#cont main .searchbar .searchresults {
+  background-color: #E6E6E6;
+}
+
+#cont main .searchbar .searchresults li {
+  background-color: #F0F0F0;
+}
+
+#cont main .searchbar .inputsearch input:focus {
+  color: #110038;
+}
+
+#cont main .searchbar .inputsearch input:focus ~ #search {
+  background-color: #F7C9F3;
+  -webkit-box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+  color: #110038;
+}
+
+#cont main .searchbar .inputsearch input {
+  color: #110038;
+}
+
+#cont main .searchbar .inputsearch #search:active {
+  background-color: #F7C9F3;
+  color: #110038;
+}
+
+#cont main #tags-cont .tags {
+  background: #4180F6;
+}
+
+#cont main .suggestions {
+  background: #FFFAFE;
+  border: 1px solid #E6BBE2;
+  -webkit-box-shadow: inset -2px -2px 0 0 #E6DCE4, inset 2px 2px 0 0 #80687D;
+          box-shadow: inset -2px -2px 0 0 #E6DCE4, inset 2px 2px 0 0 #80687D;
+  color: #110038;
+}
+
+#cont main .gifgrid .gif .gif-header {
+  background-image: -webkit-gradient(linear, right top, left top, from(#F7C9F3), to(#4180F6));
+  background-image: linear-gradient(270deg, #F7C9F3 0%, #4180F6 100%);
+}
+
+#cont main .gifgrid .gif .see-more {
+  background: #4180F6;
+  border: 1px solid #4C2F99;
+  -webkit-box-shadow: inset -2px -2px 0 0 #284F99, inset 2px 2px 0 0 #FFFFFF;
+          box-shadow: inset -2px -2px 0 0 #284F99, inset 2px 2px 0 0 #FFFFFF;
+}
+
+#cont main .gif-container .gif-hashtags .gif-box h4 {
+  background-image: -webkit-gradient(linear, right top, left top, from(#F7C9F3), to(#4180F6));
+  background-image: linear-gradient(270deg, #F7C9F3 0%, #4180F6 100%);
+}
+
+#cont main .gifos-process .creategifos {
+  background: #E6E6E6;
+  -webkit-box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+          box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+}
+
+#cont main .gifos-process .creategifos .gifosheader {
+  background-image: -webkit-gradient(linear, right top, left top, from(#F7C9F3), to(#4180F6));
+  background-image: linear-gradient(270deg, #F7C9F3 0%, #4180F6 100%);
+}
+
+#cont main .gifos-process #success .wrapper #copy {
+  background: #FFF4FD;
+}
+
+#cont main .gifos-process #success .wrapper #download {
+  background: #FFF4FD;
+}
+
+#cont main .gifos-process #success .wrapper #done {
+  background: #F7C9F3;
+}
+/*# sourceMappingURL=DayTheme.css.map */
